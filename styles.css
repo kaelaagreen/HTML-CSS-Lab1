@@ -63,6 +63,10 @@ p{
     margin: 10px;
 }
 
+.bubbles{
+    display: none;
+}
+
 @media only screen and (min-width: 768px){
     header{
         display: flex;
@@ -99,8 +103,8 @@ p{
     }
 
     .bubbles{
+        display: initial;
         position: relative;
-
     }
 
     #pinkBubble{
