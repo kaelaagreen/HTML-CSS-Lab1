@@ -62,3 +62,76 @@ p{
     font-size: medium;
     margin: 10px;
 }
+
+@media only screen and (min-width: 768px){
+    header{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    
+    div{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .content{
+        display: flex;
+        justify-content: space-between;
+        margin-top:10%;
+    }
+
+    .headerNav{
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .headerNav > a {
+        padding: 10px;
+    }
+
+    .aboutSection{
+        width: 50%;
+    }
+
+    #headerButton{
+        width: 80px;;
+    }
+
+    .bubbles{
+        position: relative;
+
+    }
+
+    #pinkBubble{
+        position: relative;
+        right: 135px;
+        top:0px;
+        width: 250px;
+        height: 250px;
+        background: rgba(247, 136, 167, 0.6);
+        border-radius: 360px;
+    }
+
+    #purpleBubble{
+        position: relative;
+        right: -50px;
+        top: -200px;
+        width: 150px;
+        height: 150px;
+        background: rgba(207, 130, 213, 0.6);
+        border-radius: 360px;
+    }
+
+    #orangeBubble{
+        position: relative;
+        right: 5px;
+        top: -230px;
+        width: 200px;
+        height: 200px;
+        background: rgba(247, 193, 162, 0.7);
+        border-radius: 360px;
+    }
+
+
+}
